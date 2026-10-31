@@ -445,3 +445,18 @@ footer {
         transition: none !important;
     }
 }
+#chart-container {
+    position: relative;
+    min-height: 320px;
+    width: 100%;
+}
+
+#viewsChart {
+    width: 100% !important;
+    max-height: 300px;
+}
+
+#chart-message {
+    color: #e6c78b;
+    font-size: 12px;
+}

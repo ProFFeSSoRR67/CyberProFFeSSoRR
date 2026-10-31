@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CyberProFFeSSoRR | Celestial Analytics</title>
+
     <link rel="stylesheet"
           href="{{ url_for('static', filename='css/style.css') }}">
+
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
@@ -27,7 +29,8 @@
 
     <a class="nav-button"
        href="https://www.youtube.com/@cyberproffessorr"
-       target="_blank" rel="noopener noreferrer">
+       target="_blank"
+       rel="noopener noreferrer">
         YouTube ↗
     </a>
 </header>
@@ -56,6 +59,7 @@
             <a class="gold-button" href="#analytics">
                 ✦ Исследовать статистику
             </a>
+
             <a class="outline-button" href="#partners">
                 Сотрудничество
             </a>
@@ -72,70 +76,112 @@
         </div>
 
         <div class="notice">
-            ✧ Демонстрационный интерфейс.
-            Реальные данные YouTube Analytics
-            пока не подключены.
+            ✧ Публичная статистика обновляется через
+            YouTube Data API. Подробная аналитика
+            за 28 дней пока подключается.
         </div>
 
         <div class="stats-grid">
+
+            <!-- Подписчики -->
             <article class="stat-card">
                 <div class="stat-icon">✦</div>
                 <div class="stat-label">Подписчики</div>
-                <div class="stat-value">—</div>
+
+                <div class="stat-value" id="subscribers">
+                    —
+                </div>
+
                 <div class="stat-detail">
-                    Ожидается подключение API
+                    Публичная статистика YouTube
                 </div>
             </article>
 
+            <!-- Просмотры за 28 дней -->
             <article class="stat-card">
                 <div class="stat-icon">◈</div>
-                <div class="stat-label">Просмотры за 28 дней</div>
-                <div class="stat-value">—</div>
+                <div class="stat-label">
+                    Просмотры за 28 дней
+                </div>
+
+                <div class="stat-value" id="views-28">
+                    —
+                </div>
+
                 <div class="stat-detail">
-                    Ожидается подключение API
+                    Ожидается подключение Analytics API
                 </div>
             </article>
 
+            <!-- Время просмотра -->
             <article class="stat-card">
                 <div class="stat-icon">✧</div>
-                <div class="stat-label">Время просмотра</div>
-                <div class="stat-value">—</div>
+                <div class="stat-label">
+                    Время просмотра за 28 дней
+                </div>
+
+                <div class="stat-value" id="watch-time">
+                    —
+                </div>
+
                 <div class="stat-detail">
-                    Ожидается подключение API
+                    Ожидается подключение Analytics API
                 </div>
             </article>
 
+            <!-- Количество видео -->
             <article class="stat-card">
                 <div class="stat-icon">❖</div>
-                <div class="stat-label">Количество видео</div>
-                <div class="stat-value">—</div>
+                <div class="stat-label">
+                    Количество видео
+                </div>
+
+                <div class="stat-value" id="videos">
+                    —
+                </div>
+
                 <div class="stat-detail">
-                    Ожидается подключение API
+                    Публичная статистика YouTube
                 </div>
             </article>
         </div>
 
+        <!-- Общие просмотры канала -->
+        <div class="notice" style="margin-top: 25px;">
+            ✦ Всего просмотров на канале:
+            <strong id="total-views">—</strong>
+        </div>
+
+        <!-- График -->
         <div class="chart-panel">
             <div class="panel-header">
                 <div>
-                    <div class="eyebrow">✦ ИСТОРИЯ РОСТА</div>
+                    <div class="eyebrow">
+                        ✦ ИСТОРИЯ РОСТА
+                    </div>
+
                     <h3>Путешествие просмотров</h3>
                 </div>
-                <span class="period">Последние 28 дней</span>
+
+                <span class="period">
+                    Последние 28 дней
+                </span>
             </div>
 
-            <div class="chart-placeholder">
-                <div class="chart-symbol">✧</div>
-                <p>Здесь появится график просмотров</p>
-                <small>
-                    После безопасного подключения YouTube Analytics
-                </small>
-            </div>
+          <div class="chart-placeholder" id="chart-container">
+    <canvas id="viewsChart"></canvas>
+    <p id="chart-message">
+        Загрузка статистики...
+    </p>
+</div>
         </div>
     </section>
 
     <section class="partners" id="partners">
-        <div class="eyebrow">✦ ПАРТНЁРСТВО ✦</div>
+        <div class="eyebrow">
+            ✦ ПАРТНЁРСТВО ✦
+        </div>
+
         <h2>Начнём новое приключение?</h2>
 
         <p>
@@ -146,7 +192,8 @@
 
         <a class="gold-button"
            href="https://www.youtube.com/@cyberproffessorr"
-           target="_blank" rel="noopener noreferrer">
+           target="_blank"
+           rel="noopener noreferrer">
             Посетить YouTube-канал ↗
         </a>
     </section>
@@ -154,9 +201,18 @@
 
 <footer>
     <div class="footer-symbol">✦</div>
-    <p>CyberProFFeSSoRR · Celestial Analytics</p>
-    <small>Независимый сайт, вдохновлённый фэнтези-эстетикой.</small>
+
+    <p>
+        CyberProFFeSSoRR · Celestial Analytics
+    </p>
+
+    <small>
+        Независимый сайт, вдохновлённый
+        фэнтези-эстетикой.
+    </small>
 </footer>
+
+<script src="{{ url_for('static', filename='js/dashboard.js') }}"></script>
 
 </body>
 </html>
