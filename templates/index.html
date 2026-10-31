@@ -1,26 +1,162 @@
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>CyberProFFeSSoRR — Analytics</title>
-    <style>
-        body {
-            background: #0b1020;
-            color: white;
-            font-family: Arial, sans-serif;
-            text-align: center;
-            padding: 60px 20px;
-        }
-        h1 {
-            color: #8b5cf6;
-        }
-    </style>
+    <title>CyberProFFeSSoRR | Celestial Analytics</title>
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
-    <h1>CyberProFFeSSoRR</h1>
-    <h2>YouTube Analytics Dashboard</h2>
-    <p>Статистика канала для рекламодателей</p>
-    <p>Скоро здесь появятся графики и показатели канала.</p>
+
+<div class="stars"></div>
+
+<header class="navbar">
+    <a href="/" class="brand">
+        <span class="brand-symbol">✦</span>
+        CyberProFFeSSoRR
+    </a>
+
+    <nav>
+        <a href="#home">Главная</a>
+        <a href="#analytics">Аналитика</a>
+        <a href="#partners">Сотрудничество</a>
+    </nav>
+
+    <a class="nav-button"
+       href="https://www.youtube.com/@cyberproffessorr"
+       target="_blank" rel="noopener noreferrer">
+        YouTube ↗
+    </a>
+</header>
+
+<main>
+    <section class="hero" id="home">
+        <div class="hero-decoration">✧</div>
+
+        <div class="eyebrow">
+            ✦ CELESTIAL ANALYTICS ✦
+        </div>
+
+        <h1>Cyber<span>ProFFeSSoRR</span></h1>
+
+        <div class="ornament">
+            <span></span> ✦ <span></span>
+        </div>
+
+        <p class="hero-subtitle">
+            Мир творчества, технологий и приключений.
+            Добро пожаловать на официальный портал
+            аналитики YouTube-канала.
+        </p>
+
+        <div class="hero-actions">
+            <a class="gold-button" href="#analytics">
+                ✦ Исследовать статистику
+            </a>
+            <a class="outline-button" href="#partners">
+                Сотрудничество
+            </a>
+        </div>
+    </section>
+
+    <section class="dashboard" id="analytics">
+        <div class="section-heading">
+            <div class="eyebrow">✦ ОБЗОР КАНАЛА ✦</div>
+            <h2>Летопись достижений</h2>
+            <p>
+                Показатели канала и история его развития
+            </p>
+        </div>
+
+        <div class="notice">
+            ✧ Демонстрационный интерфейс.
+            Реальные данные YouTube Analytics
+            пока не подключены.
+        </div>
+
+        <div class="stats-grid">
+            <article class="stat-card">
+                <div class="stat-icon">✦</div>
+                <div class="stat-label">Подписчики</div>
+                <div class="stat-value">—</div>
+                <div class="stat-detail">
+                    Ожидается подключение API
+                </div>
+            </article>
+
+            <article class="stat-card">
+                <div class="stat-icon">◈</div>
+                <div class="stat-label">Просмотры за 28 дней</div>
+                <div class="stat-value">—</div>
+                <div class="stat-detail">
+                    Ожидается подключение API
+                </div>
+            </article>
+
+            <article class="stat-card">
+                <div class="stat-icon">✧</div>
+                <div class="stat-label">Время просмотра</div>
+                <div class="stat-value">—</div>
+                <div class="stat-detail">
+                    Ожидается подключение API
+                </div>
+            </article>
+
+            <article class="stat-card">
+                <div class="stat-icon">❖</div>
+                <div class="stat-label">Количество видео</div>
+                <div class="stat-value">—</div>
+                <div class="stat-detail">
+                    Ожидается подключение API
+                </div>
+            </article>
+        </div>
+
+        <div class="chart-panel">
+            <div class="panel-header">
+                <div>
+                    <div class="eyebrow">✦ ИСТОРИЯ РОСТА</div>
+                    <h3>Путешествие просмотров</h3>
+                </div>
+                <span class="period">Последние 28 дней</span>
+            </div>
+
+            <div class="chart-placeholder">
+                <div class="chart-symbol">✧</div>
+                <p>Здесь появится график просмотров</p>
+                <small>
+                    После безопасного подключения YouTube Analytics
+                </small>
+            </div>
+        </div>
+    </section>
+
+    <section class="partners" id="partners">
+        <div class="eyebrow">✦ ПАРТНЁРСТВО ✦</div>
+        <h2>Начнём новое приключение?</h2>
+
+        <p>
+            CyberProFFeSSoRR открыт к предложениям
+            о сотрудничестве, интеграциях
+            и совместных проектах.
+        </p>
+
+        <a class="gold-button"
+           href="https://www.youtube.com/@cyberproffessorr"
+           target="_blank" rel="noopener noreferrer">
+            Посетить YouTube-канал ↗
+        </a>
+    </section>
+</main>
+
+<footer>
+    <div class="footer-symbol">✦</div>
+    <p>CyberProFFeSSoRR · Celestial Analytics</p>
+    <small>Независимый сайт, вдохновлённый фэнтези-эстетикой.</small>
+</footer>
+
 </body>
 </html>
