@@ -460,3 +460,88 @@ footer {
     color: #e6c78b;
     font-size: 12px;
 }
+
+/* Переключатель графиков */
+
+.chart-tabs {
+    display: flex;
+    gap: 12px;
+    margin-top: 28px;
+    margin-bottom: 8px;
+    flex-wrap: wrap;
+}
+
+.chart-tab {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 13px 24px;
+
+    background: rgba(8, 20, 40, 0.85);
+    border: 1px solid rgba(230,199,139,0.35);
+    color: #d0dced;
+
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+.chart-tab:hover {
+    border-color: #ffe3a5;
+    color: #ffffff;
+    transform: translateY(-2px);
+}
+
+.chart-tab.active {
+    color: #101827;
+    background: linear-gradient(
+        135deg,
+        #f4c875,
+        #ffe5aa
+    );
+    border-color: #ffe5aa;
+    box-shadow: 0 0 20px rgba(255,211,110,0.25);
+}
+
+.chart-tab[data-chart="subscribers"].active {
+    background: linear-gradient(
+        135deg,
+        #27d8cc,
+        #83fff0
+    );
+    border-color: #83fff0;
+    box-shadow: 0 0 20px rgba(56,245,224,0.25);
+}
+
+#chart-container {
+    min-height: 350px;
+    padding: 24px;
+    background: rgba(5, 13, 29, 0.45);
+    border: 1px solid rgba(230,199,139,0.25);
+}
+
+#viewsChart {
+    width: 100% !important;
+    height: 300px !important;
+    max-height: 300px;
+}
+
+#chart-message {
+    margin-top: 12px;
+    font-size: 12px;
+    color: #e6c78b;
+}
+
+@media (max-width: 540px) {
+    .chart-tabs {
+        flex-direction: column;
+    }
+
+    .chart-tab {
+        width: 100%;
+    }
+
+    #chart-container {
+        padding: 12px;
+    }
+}
+

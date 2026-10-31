@@ -153,28 +153,47 @@
         </div>
 
         <!-- График -->
-        <div class="chart-panel">
-            <div class="panel-header">
-                <div>
-                    <div class="eyebrow">
-                        ✦ ИСТОРИЯ РОСТА
-                    </div>
-
-                    <h3>Путешествие просмотров</h3>
-                </div>
-
-                <span class="period">
-                    Последние 28 дней
-                </span>
+        <
+<div class="chart-panel">
+    <div class="panel-header">
+        <div>
+            <div class="eyebrow">
+                ✦ ИСТОРИЯ РОСТА
             </div>
-
-          <div class="chart-placeholder" id="chart-container">
-    <canvas id="viewsChart"></canvas>
-    <p id="chart-message">
-        Загрузка статистики...
-    </p>
-</div>
+            <h3 id="chart-title">
+                Путешествие просмотров
+            </h3>
         </div>
+
+        <span class="period">
+            Последние 28 дней
+        </span>
+    </div>
+
+    <div class="chart-tabs">
+        <button
+            class="chart-tab active"
+            data-chart="views"
+            type="button">
+            ◈ Просмотры
+        </button>
+
+        <button
+            class="chart-tab"
+            data-chart="subscribers"
+            type="button">
+            ✦ Прирост подписчиков
+        </button>
+    </div>
+
+    <div class="chart-placeholder" id="chart-container">
+        <canvas id="viewsChart"></canvas>
+        <p id="chart-message">
+            Загрузка статистики...
+        </p>
+    </div>
+</div>
+
     </section>
 
     <section class="partners" id="partners">

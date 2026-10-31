@@ -35,96 +35,210 @@ async function loadStats() {
 
 document.addEventListener("DOMContentLoaded", loadStats);
 
+
+let analyticsChart = null;
+let analyticsData = null;
+
+function formatNumber(value) {
+    return Number(value).toLocaleString("ru-RU");
+}
+
+function showChart(type) {
+    if (!analyticsData || !analyticsData.daily.length) {
+        return;
+    }
+
+    const isSubscribers = type === "subscribers";
+
+    const labels = analyticsData.daily.map(
+        item => item.date
+    );
+
+    const values = analyticsData.daily.map(
+        item => isSubscribers
+            ? item.subscribers_net
+            : item.views
+    );
+
+    const color = isSubscribers
+        ? "#38f5e0"
+        : "#ffd36e";
+
+    const fillColor = isSubscribers
+        ? "rgba(56,245,224,0.12)"
+        : "rgba(255,211,110,0.14)";
+
+    document.getElementById("chart-title").textContent =
+        isSubscribers
+            ? "Динамика подписчиков"
+            : "Путешествие просмотров";
+
+    document.querySelectorAll(".chart-tab").forEach(
+        button => {
+            button.classList.toggle(
+                "active",
+                button.dataset.chart === type
+            );
+        }
+    );
+
+    if (analyticsChart) {
+        analyticsChart.destroy();
+    }
+
+    const ctx = document.getElementById("viewsChart");
+
+    analyticsChart = new Chart(ctx, {
+        type: isSubscribers ? "bar" : "line",
+
+        data: {
+            labels: labels,
+            datasets: [{
+                label: isSubscribers
+                    ? "Чистый прирост подписчиков"
+                    : "Просмотры",
+
+                data: values,
+
+                borderColor: color,
+                backgroundColor: fillColor,
+                borderWidth: isSubscribers ? 1 : 3,
+
+                pointRadius: isSubscribers ? 0 : 4,
+                pointHoverRadius: 7,
+                pointBackgroundColor: color,
+
+                tension: 0.25,
+                fill: !isSubscribers,
+
+                borderRadius: isSubscribers ? 4 : 0
+            }]
+        },
+
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+
+            animation: {
+                duration: 650
+            },
+
+            interaction: {
+                mode: "index",
+                intersect: false
+            },
+
+            plugins: {
+                legend: {
+                    labels: {
+                        color: "#f5f0e7",
+                        font: {
+                            size: 13
+                        }
+                    }
+                },
+
+                tooltip: {
+                    backgroundColor: "#071322",
+                    titleColor: "#ffe3a5",
+                    bodyColor: "#ffffff",
+                    borderColor: color,
+                    borderWidth: 1,
+
+                    callbacks: {
+                        label: context => {
+                            const value = context.parsed.y;
+
+                            if (isSubscribers) {
+                                return " Прирост: " +
+                                    (value > 0 ? "+" : "") +
+                                    formatNumber(value);
+                            }
+
+                            return " Просмотры: " +
+                                formatNumber(value);
+                        }
+                    }
+                }
+            },
+
+            scales: {
+                x: {
+                    ticks: {
+                        color: "#d0dced",
+                        maxTicksLimit: 8
+                    },
+
+                    grid: {
+                        color: "rgba(255,255,255,0.08)"
+                    }
+                },
+
+                y: {
+                    beginAtZero: true,
+
+                    ticks: {
+                        color: "#d0dced",
+                        precision: isSubscribers ? 0 : undefined
+                    },
+
+                    grid: {
+                        color: context =>
+                            context.tick.value === 0
+                                ? "rgba(255,255,255,0.55)"
+                                : "rgba(255,255,255,0.1)"
+                    }
+                }
+            }
+        }
+    });
+}
+
 async function loadAnalytics() {
-    const message = document.getElementById("chart-message");
+    const message = document.getElementById(
+        "chart-message"
+    );
 
     try {
         const response = await fetch("/api/analytics");
 
         if (!response.ok) {
-            throw new Error("Отчёт пока недоступен");
+            throw new Error("Аналитика недоступна");
         }
 
         const data = await response.json();
 
-        const format = (value) =>
-            Number(value).toLocaleString("ru-RU");
-
         document.getElementById("views-28").textContent =
-            format(data.views_28);
+            formatNumber(data.views_28);
 
         document.getElementById("watch-time").textContent =
-            format(data.watch_hours_28) + " ч";
+            formatNumber(data.watch_hours_28) + " ч";
 
-        if (!data.daily || data.daily.length === 0) {
-            message.textContent =
-                "YouTube пока не вернул данные за этот период";
+        if (!Array.isArray(data.daily) || !data.daily.length) {
+            message.textContent = "Нет данных за этот период";
             return;
         }
 
-        const labels = data.daily.map(item => item.date);
-        const views = data.daily.map(item => item.views);
-
-        new Chart(
-            document.getElementById("viewsChart"),
-            {
-                type: "line",
-                data: {
-                    labels: labels,
-                    datasets: [{
-                        label: "Просмотры",
-                        data: views,
-                        borderColor: "#e6c78b",
-                        backgroundColor: "rgba(230,199,139,0.12)",
-                        borderWidth: 3,
-                        pointRadius: 3,
-                        pointBackgroundColor: "#ffe3a5",
-                        tension: 0.35,
-                        fill: true
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    plugins: {
-                        legend: {
-                            labels: {
-                                color: "#e6c78b"
-                            }
-                        }
-                    },
-                    scales: {
-                        x: {
-                            ticks: {
-                                color: "#9eafc5",
-                                maxTicksLimit: 7
-                            },
-                            grid: {
-                                color: "rgba(230,199,139,0.08)"
-                            }
-                        },
-                        y: {
-                            beginAtZero: true,
-                            ticks: {
-                                color: "#9eafc5"
-                            },
-                            grid: {
-                                color: "rgba(230,199,139,0.1)"
-                            }
-                        }
-                    }
-                }
-            }
-        );
+        analyticsData = data;
 
         message.textContent =
             "Последний день с данными: " +
             data.last_data_date;
 
+        showChart("views");
+
+        document.querySelectorAll(".chart-tab").forEach(
+            button => {
+                button.addEventListener("click", () => {
+                    showChart(button.dataset.chart);
+                });
+            }
+        );
+
     } catch (error) {
         console.error(error);
         message.textContent =
-            "Не удалось загрузить график";
+            "Не удалось загрузить аналитику";
     }
 }
 

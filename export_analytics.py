@@ -4,9 +4,7 @@ from datetime import date, timedelta
 from pathlib import Path
 
 from googleapiclient.discovery import build
-
 from analytics import get_credentials
-
 
 OUTPUT_FILE = Path("data/analytics.json")
 
@@ -14,7 +12,7 @@ OUTPUT_FILE = Path("data/analytics.json")
 def export_analytics():
     credentials = get_credentials()
 
-    youtube_analytics = build(
+    api = build(
         "youtubeAnalytics",
         "v2",
         credentials=credentials
@@ -23,33 +21,55 @@ def export_analytics():
     end_date = date.today() - timedelta(days=1)
     start_date = end_date - timedelta(days=27)
 
-    report = youtube_analytics.reports().query(
+    report = api.reports().query(
         ids="channel==MINE",
         startDate=start_date.isoformat(),
         endDate=end_date.isoformat(),
-        metrics="views,estimatedMinutesWatched",
+        metrics=(
+            "views,estimatedMinutesWatched,"
+            "subscribersGained,subscribersLost"
+        ),
         dimensions="day",
         sort="day"
     ).execute()
 
-    rows = report.get("rows", [])
+    daily = []
 
-    daily = [
-        {
-            "date": row[0],
-            "views": int(row[1]),
-            "minutes": float(row[2])
-        }
-        for row in rows
-    ]
+    for row in report.get("rows", []):
+        day, views, minutes, gained, lost = row
+
+        gained = int(gained)
+        lost = int(lost)
+
+        daily.append({
+            "date": day,
+            "views": int(views),
+            "minutes": float(minutes),
+            "subscribers_gained": gained,
+            "subscribers_lost": lost,
+            "subscribers_net": gained - lost
+        })
 
     result = {
         "period_start": start_date.isoformat(),
         "period_end": end_date.isoformat(),
-        "last_data_date": daily[-1]["date"] if daily else None,
-        "views_28": sum(day["views"] for day in daily),
+        "last_data_date": (
+            daily[-1]["date"] if daily else None
+        ),
+        "views_28": sum(
+            day["views"] for day in daily
+        ),
         "watch_hours_28": round(
             sum(day["minutes"] for day in daily) / 60, 1
+        ),
+        "subscribers_gained_28": sum(
+            day["subscribers_gained"] for day in daily
+        ),
+        "subscribers_lost_28": sum(
+            day["subscribers_lost"] for day in daily
+        ),
+        "subscribers_net_28": sum(
+            day["subscribers_net"] for day in daily
         ),
         "daily": daily
     }
@@ -68,11 +88,10 @@ def export_analytics():
         encoding="utf-8"
     )
 
-    print("Статистика успешно экспортирована!")
-    print("Файл:", OUTPUT_FILE)
+    print("Экспорт завершён!")
     print("Просмотры:", result["views_28"])
-    print("Часы просмотра:", result["watch_hours_28"])
-    print("Последний день данных:", result["last_data_date"])
+    print("Прирост подписчиков:", result["subscribers_net_28"])
+    print("Файл:", OUTPUT_FILE)
 
 
 if __name__ == "__main__":
