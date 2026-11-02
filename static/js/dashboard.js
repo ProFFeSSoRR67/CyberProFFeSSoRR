@@ -2,6 +2,21 @@
 let analyticsChart = null;
 let analyticsData = null;
 let currentSubscribers = null;
+let currentChart = "views";
+let currentPeriod = "28";
+
+function periodStart(endDate, period) {
+    const end = new Date(endDate + "T00:00:00Z");
+    if (period === "year") {
+        const month = end.getUTCMonth();
+        end.setUTCFullYear(end.getUTCFullYear() - 1);
+        if (end.getUTCMonth() !== month) end.setUTCDate(0);
+        end.setUTCDate(end.getUTCDate() + 1);
+    } else {
+        end.setUTCDate(end.getUTCDate() - 27);
+    }
+    return end.toISOString().slice(0, 10);
+}
 
 function formatNumber(value) {
     if (value === null || value === undefined) {
@@ -38,6 +53,7 @@ async function loadStats() {
         ) {
             currentSubscribers = Number(data.subscribers);
         }
+        if (analyticsData && currentChart === "subscribers") showChart(currentChart);
 
         console.log("Публичная статистика загружена");
 
@@ -49,12 +65,32 @@ async function loadStats() {
 
 // Переключение графиков
 function showChart(type) {
+    currentChart = type;
+    document.querySelectorAll(".chart-tab").forEach(button => {
+        button.classList.toggle("active", button.dataset.chart === type);
+        button.setAttribute("aria-pressed", String(button.dataset.chart === type));
+    });
     if (!analyticsData || !analyticsData.daily?.length) {
         return;
     }
 
     const isSubscribers = type === "subscribers";
-    const daily = analyticsData.daily;
+    const end = analyticsData.period_end || analyticsData.last_data_date;
+    const start = periodStart(end, currentPeriod);
+    const daily = analyticsData.daily.filter(item => item.date >= start && item.date <= end);
+    const message = document.getElementById("chart-message");
+    const canvas = document.getElementById("viewsChart");
+    if (analyticsChart) {
+        analyticsChart.destroy();
+        analyticsChart = null;
+    }
+    canvas.hidden = true;
+    document.getElementById("chart-title").textContent = isSubscribers
+        ? "История подписчиков" : "Путешествие просмотров";
+    if (!daily.length) {
+        message.textContent = "Нет данных за этот период";
+        return;
+    }
 
     const labels = daily.map(item => item.date);
 
@@ -117,7 +153,7 @@ function showChart(type) {
         analyticsChart.destroy();
     }
 
-    const canvas = document.getElementById("viewsChart");
+    canvas.hidden = false;
 
     analyticsChart = new Chart(canvas, {
         type: "line",
@@ -136,7 +172,7 @@ function showChart(type) {
                 backgroundColor: fillColor,
 
                 borderWidth: 3,
-                pointRadius: 4,
+                pointRadius: currentPeriod === "year" ? 0 : 4,
                 pointHoverRadius: 7,
 
                 pointBackgroundColor: color,
@@ -229,6 +265,9 @@ function showChart(type) {
         analyticsData.last_data_date +
         (isSubscribers
             ? " · История приблизительная"
+            : "") +
+        (analyticsData.period_start > start
+            ? " · Доступны данные с " + analyticsData.period_start
             : "");
 }
 
@@ -264,6 +303,17 @@ async function loadAnalytics() {
         document.querySelectorAll(".chart-tab").forEach(button => {
             button.addEventListener("click", () => {
                 showChart(button.dataset.chart);
+            });
+        });
+        document.querySelectorAll("[data-period]").forEach(button => {
+            button.addEventListener("click", () => {
+                currentPeriod = button.dataset.period;
+                document.querySelectorAll("[data-period]").forEach(filter => {
+                    const active = filter === button;
+                    filter.classList.toggle("active", active);
+                    filter.setAttribute("aria-pressed", String(active));
+                });
+                showChart(currentChart);
             });
         });
 

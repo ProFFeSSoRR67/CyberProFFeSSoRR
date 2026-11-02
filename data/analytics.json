@@ -1,14 +1,2693 @@
-
 {
-  "period_start": "2026-10-04",
-  "period_end": "2026-10-31",
-  "last_data_date": "2026-10-28",
-  "views_28": 13543,
-  "watch_hours_28": 169.4,
-  "subscribers_gained_28": 25,
+  "period_start": "2025-11-03",
+  "period_end": "2026-11-02",
+  "last_data_date": "2026-10-31",
+  "views_28": 13725,
+  "watch_hours_28": 159.5,
+  "subscribers_gained_28": 23,
   "subscribers_lost_28": 9,
-  "subscribers_net_28": 16,
+  "subscribers_net_28": 14,
   "daily": [
+    {
+      "date": "2025-11-03",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2025-11-04",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2025-11-05",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2025-11-06",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2025-11-07",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2025-11-08",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2025-11-09",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2025-11-10",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2025-11-11",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2025-11-12",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2025-11-13",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2025-11-14",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2025-11-15",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2025-11-16",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2025-11-17",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2025-11-18",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2025-11-19",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2025-11-20",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2025-11-21",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2025-11-22",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2025-11-23",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2025-11-24",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2025-11-25",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2025-11-26",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2025-11-27",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2025-11-28",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2025-11-29",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2025-11-30",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2025-12-01",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2025-12-02",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2025-12-03",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2025-12-04",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2025-12-05",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2025-12-06",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2025-12-07",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2025-12-08",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2025-12-09",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2025-12-10",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2025-12-11",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2025-12-12",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2025-12-13",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2025-12-14",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2025-12-15",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2025-12-16",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2025-12-17",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2025-12-18",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2025-12-19",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2025-12-20",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2025-12-21",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2025-12-22",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2025-12-23",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2025-12-24",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2025-12-25",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2025-12-26",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2025-12-27",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2025-12-28",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2025-12-29",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2025-12-30",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2025-12-31",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-01-01",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-01-02",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-01-03",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-01-04",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-01-05",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-01-06",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-01-07",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-01-08",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-01-09",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-01-10",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-01-11",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-01-12",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-01-13",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-01-14",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-01-15",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-01-16",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-01-17",
+      "views": 0,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-01-18",
+      "views": 13,
+      "minutes": 58.0,
+      "subscribers_gained": 2,
+      "subscribers_lost": 0,
+      "subscribers_net": 2
+    },
+    {
+      "date": "2026-01-19",
+      "views": 2206,
+      "minutes": 225.0,
+      "subscribers_gained": 3,
+      "subscribers_lost": 1,
+      "subscribers_net": 2
+    },
+    {
+      "date": "2026-01-20",
+      "views": 2288,
+      "minutes": 399.0,
+      "subscribers_gained": 5,
+      "subscribers_lost": 4,
+      "subscribers_net": 1
+    },
+    {
+      "date": "2026-01-21",
+      "views": 2855,
+      "minutes": 286.0,
+      "subscribers_gained": 2,
+      "subscribers_lost": 0,
+      "subscribers_net": 2
+    },
+    {
+      "date": "2026-01-22",
+      "views": 2565,
+      "minutes": 707.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-01-23",
+      "views": 2361,
+      "minutes": 707.0,
+      "subscribers_gained": 1,
+      "subscribers_lost": 0,
+      "subscribers_net": 1
+    },
+    {
+      "date": "2026-01-24",
+      "views": 4485,
+      "minutes": 643.0,
+      "subscribers_gained": 1,
+      "subscribers_lost": 1,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-01-25",
+      "views": 301,
+      "minutes": 140.0,
+      "subscribers_gained": 64,
+      "subscribers_lost": 0,
+      "subscribers_net": 64
+    },
+    {
+      "date": "2026-01-26",
+      "views": 289,
+      "minutes": 222.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 57,
+      "subscribers_net": -57
+    },
+    {
+      "date": "2026-01-27",
+      "views": 1833,
+      "minutes": 303.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-01-28",
+      "views": 742,
+      "minutes": 445.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-01-29",
+      "views": 865,
+      "minutes": 144.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-01-30",
+      "views": 323,
+      "minutes": 84.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-01-31",
+      "views": 1583,
+      "minutes": 258.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-02-01",
+      "views": 2090,
+      "minutes": 343.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-02-02",
+      "views": 829,
+      "minutes": 196.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-02-03",
+      "views": 2041,
+      "minutes": 696.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-02-04",
+      "views": 2603,
+      "minutes": 519.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-02-05",
+      "views": 4029,
+      "minutes": 1255.0,
+      "subscribers_gained": 2,
+      "subscribers_lost": 0,
+      "subscribers_net": 2
+    },
+    {
+      "date": "2026-02-06",
+      "views": 6159,
+      "minutes": 887.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-02-07",
+      "views": 2798,
+      "minutes": 417.0,
+      "subscribers_gained": 1,
+      "subscribers_lost": 0,
+      "subscribers_net": 1
+    },
+    {
+      "date": "2026-02-08",
+      "views": 4530,
+      "minutes": 898.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-02-09",
+      "views": 2950,
+      "minutes": 632.0,
+      "subscribers_gained": 1,
+      "subscribers_lost": 0,
+      "subscribers_net": 1
+    },
+    {
+      "date": "2026-02-10",
+      "views": 2059,
+      "minutes": 665.0,
+      "subscribers_gained": 2,
+      "subscribers_lost": 0,
+      "subscribers_net": 2
+    },
+    {
+      "date": "2026-02-11",
+      "views": 974,
+      "minutes": 326.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-02-12",
+      "views": 1634,
+      "minutes": 444.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-02-13",
+      "views": 2768,
+      "minutes": 401.0,
+      "subscribers_gained": 24,
+      "subscribers_lost": 0,
+      "subscribers_net": 24
+    },
+    {
+      "date": "2026-02-14",
+      "views": 1236,
+      "minutes": 243.0,
+      "subscribers_gained": 35,
+      "subscribers_lost": 1,
+      "subscribers_net": 34
+    },
+    {
+      "date": "2026-02-15",
+      "views": 1806,
+      "minutes": 726.0,
+      "subscribers_gained": 2,
+      "subscribers_lost": 4,
+      "subscribers_net": -2
+    },
+    {
+      "date": "2026-02-16",
+      "views": 1502,
+      "minutes": 850.0,
+      "subscribers_gained": 1,
+      "subscribers_lost": 0,
+      "subscribers_net": 1
+    },
+    {
+      "date": "2026-02-17",
+      "views": 1228,
+      "minutes": 1301.0,
+      "subscribers_gained": 5,
+      "subscribers_lost": 0,
+      "subscribers_net": 5
+    },
+    {
+      "date": "2026-02-18",
+      "views": 742,
+      "minutes": 1559.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-02-19",
+      "views": 567,
+      "minutes": 1507.0,
+      "subscribers_gained": 3,
+      "subscribers_lost": 0,
+      "subscribers_net": 3
+    },
+    {
+      "date": "2026-02-20",
+      "views": 489,
+      "minutes": 1531.0,
+      "subscribers_gained": 3,
+      "subscribers_lost": 0,
+      "subscribers_net": 3
+    },
+    {
+      "date": "2026-02-21",
+      "views": 106,
+      "minutes": 77.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 1,
+      "subscribers_net": -1
+    },
+    {
+      "date": "2026-02-22",
+      "views": 847,
+      "minutes": 1860.0,
+      "subscribers_gained": 4,
+      "subscribers_lost": 0,
+      "subscribers_net": 4
+    },
+    {
+      "date": "2026-02-23",
+      "views": 1390,
+      "minutes": 2145.0,
+      "subscribers_gained": 4,
+      "subscribers_lost": 0,
+      "subscribers_net": 4
+    },
+    {
+      "date": "2026-02-24",
+      "views": 1495,
+      "minutes": 9916.0,
+      "subscribers_gained": 16,
+      "subscribers_lost": 2,
+      "subscribers_net": 14
+    },
+    {
+      "date": "2026-02-25",
+      "views": 1046,
+      "minutes": 2097.0,
+      "subscribers_gained": 2,
+      "subscribers_lost": 0,
+      "subscribers_net": 2
+    },
+    {
+      "date": "2026-02-26",
+      "views": 1498,
+      "minutes": 2314.0,
+      "subscribers_gained": 6,
+      "subscribers_lost": 0,
+      "subscribers_net": 6
+    },
+    {
+      "date": "2026-02-27",
+      "views": 605,
+      "minutes": 1125.0,
+      "subscribers_gained": 3,
+      "subscribers_lost": 0,
+      "subscribers_net": 3
+    },
+    {
+      "date": "2026-02-28",
+      "views": 91,
+      "minutes": 55.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-03-01",
+      "views": 636,
+      "minutes": 1792.0,
+      "subscribers_gained": 3,
+      "subscribers_lost": 1,
+      "subscribers_net": 2
+    },
+    {
+      "date": "2026-03-02",
+      "views": 714,
+      "minutes": 2321.0,
+      "subscribers_gained": 3,
+      "subscribers_lost": 0,
+      "subscribers_net": 3
+    },
+    {
+      "date": "2026-03-03",
+      "views": 467,
+      "minutes": 2424.0,
+      "subscribers_gained": 8,
+      "subscribers_lost": 2,
+      "subscribers_net": 6
+    },
+    {
+      "date": "2026-03-04",
+      "views": 527,
+      "minutes": 2992.0,
+      "subscribers_gained": 3,
+      "subscribers_lost": 0,
+      "subscribers_net": 3
+    },
+    {
+      "date": "2026-03-05",
+      "views": 1506,
+      "minutes": 2378.0,
+      "subscribers_gained": 5,
+      "subscribers_lost": 1,
+      "subscribers_net": 4
+    },
+    {
+      "date": "2026-03-06",
+      "views": 474,
+      "minutes": 249.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-03-07",
+      "views": 115,
+      "minutes": 441.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-03-08",
+      "views": 3417,
+      "minutes": 2579.0,
+      "subscribers_gained": 13,
+      "subscribers_lost": 3,
+      "subscribers_net": 10
+    },
+    {
+      "date": "2026-03-09",
+      "views": 1396,
+      "minutes": 1640.0,
+      "subscribers_gained": 5,
+      "subscribers_lost": 2,
+      "subscribers_net": 3
+    },
+    {
+      "date": "2026-03-10",
+      "views": 1687,
+      "minutes": 2692.0,
+      "subscribers_gained": 8,
+      "subscribers_lost": 3,
+      "subscribers_net": 5
+    },
+    {
+      "date": "2026-03-11",
+      "views": 762,
+      "minutes": 2424.0,
+      "subscribers_gained": 8,
+      "subscribers_lost": 1,
+      "subscribers_net": 7
+    },
+    {
+      "date": "2026-03-12",
+      "views": 1409,
+      "minutes": 960.0,
+      "subscribers_gained": 2,
+      "subscribers_lost": 2,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-03-13",
+      "views": 107,
+      "minutes": 216.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-03-14",
+      "views": 41,
+      "minutes": 89.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-03-15",
+      "views": 314,
+      "minutes": 1359.0,
+      "subscribers_gained": 2,
+      "subscribers_lost": 0,
+      "subscribers_net": 2
+    },
+    {
+      "date": "2026-03-16",
+      "views": 3216,
+      "minutes": 3582.0,
+      "subscribers_gained": 7,
+      "subscribers_lost": 0,
+      "subscribers_net": 7
+    },
+    {
+      "date": "2026-03-17",
+      "views": 1984,
+      "minutes": 2695.0,
+      "subscribers_gained": 3,
+      "subscribers_lost": 1,
+      "subscribers_net": 2
+    },
+    {
+      "date": "2026-03-18",
+      "views": 2962,
+      "minutes": 2704.0,
+      "subscribers_gained": 4,
+      "subscribers_lost": 0,
+      "subscribers_net": 4
+    },
+    {
+      "date": "2026-03-19",
+      "views": 1133,
+      "minutes": 2020.0,
+      "subscribers_gained": 4,
+      "subscribers_lost": 0,
+      "subscribers_net": 4
+    },
+    {
+      "date": "2026-03-20",
+      "views": 1612,
+      "minutes": 512.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-03-21",
+      "views": 1188,
+      "minutes": 544.0,
+      "subscribers_gained": 5,
+      "subscribers_lost": 1,
+      "subscribers_net": 4
+    },
+    {
+      "date": "2026-03-22",
+      "views": 1272,
+      "minutes": 1702.0,
+      "subscribers_gained": 7,
+      "subscribers_lost": 3,
+      "subscribers_net": 4
+    },
+    {
+      "date": "2026-03-23",
+      "views": 465,
+      "minutes": 1918.0,
+      "subscribers_gained": 4,
+      "subscribers_lost": 2,
+      "subscribers_net": 2
+    },
+    {
+      "date": "2026-03-24",
+      "views": 736,
+      "minutes": 2180.0,
+      "subscribers_gained": 5,
+      "subscribers_lost": 1,
+      "subscribers_net": 4
+    },
+    {
+      "date": "2026-03-25",
+      "views": 701,
+      "minutes": 1646.0,
+      "subscribers_gained": 4,
+      "subscribers_lost": 2,
+      "subscribers_net": 2
+    },
+    {
+      "date": "2026-03-26",
+      "views": 2517,
+      "minutes": 1768.0,
+      "subscribers_gained": 9,
+      "subscribers_lost": 3,
+      "subscribers_net": 6
+    },
+    {
+      "date": "2026-03-27",
+      "views": 446,
+      "minutes": 122.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-03-28",
+      "views": 45,
+      "minutes": 58.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-03-29",
+      "views": 423,
+      "minutes": 882.0,
+      "subscribers_gained": 5,
+      "subscribers_lost": 0,
+      "subscribers_net": 5
+    },
+    {
+      "date": "2026-03-30",
+      "views": 412,
+      "minutes": 1686.0,
+      "subscribers_gained": 4,
+      "subscribers_lost": 0,
+      "subscribers_net": 4
+    },
+    {
+      "date": "2026-03-31",
+      "views": 584,
+      "minutes": 2049.0,
+      "subscribers_gained": 3,
+      "subscribers_lost": 0,
+      "subscribers_net": 3
+    },
+    {
+      "date": "2026-04-01",
+      "views": 1550,
+      "minutes": 2458.0,
+      "subscribers_gained": 2,
+      "subscribers_lost": 1,
+      "subscribers_net": 1
+    },
+    {
+      "date": "2026-04-02",
+      "views": 412,
+      "minutes": 968.0,
+      "subscribers_gained": 1,
+      "subscribers_lost": 0,
+      "subscribers_net": 1
+    },
+    {
+      "date": "2026-04-03",
+      "views": 24,
+      "minutes": 24.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-04-04",
+      "views": 22,
+      "minutes": 161.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-04-05",
+      "views": 330,
+      "minutes": 1230.0,
+      "subscribers_gained": 4,
+      "subscribers_lost": 1,
+      "subscribers_net": 3
+    },
+    {
+      "date": "2026-04-06",
+      "views": 449,
+      "minutes": 1782.0,
+      "subscribers_gained": 1,
+      "subscribers_lost": 0,
+      "subscribers_net": 1
+    },
+    {
+      "date": "2026-04-07",
+      "views": 261,
+      "minutes": 1169.0,
+      "subscribers_gained": 1,
+      "subscribers_lost": 0,
+      "subscribers_net": 1
+    },
+    {
+      "date": "2026-04-08",
+      "views": 2029,
+      "minutes": 913.0,
+      "subscribers_gained": 2,
+      "subscribers_lost": 0,
+      "subscribers_net": 2
+    },
+    {
+      "date": "2026-04-09",
+      "views": 486,
+      "minutes": 588.0,
+      "subscribers_gained": 4,
+      "subscribers_lost": 1,
+      "subscribers_net": 3
+    },
+    {
+      "date": "2026-04-10",
+      "views": 1334,
+      "minutes": 230.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-04-11",
+      "views": 188,
+      "minutes": 53.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-04-12",
+      "views": 573,
+      "minutes": 2023.0,
+      "subscribers_gained": 3,
+      "subscribers_lost": 0,
+      "subscribers_net": 3
+    },
+    {
+      "date": "2026-04-13",
+      "views": 1877,
+      "minutes": 1354.0,
+      "subscribers_gained": 4,
+      "subscribers_lost": 1,
+      "subscribers_net": 3
+    },
+    {
+      "date": "2026-04-14",
+      "views": 3371,
+      "minutes": 1739.0,
+      "subscribers_gained": 3,
+      "subscribers_lost": 2,
+      "subscribers_net": 1
+    },
+    {
+      "date": "2026-04-15",
+      "views": 586,
+      "minutes": 1584.0,
+      "subscribers_gained": 3,
+      "subscribers_lost": 2,
+      "subscribers_net": 1
+    },
+    {
+      "date": "2026-04-16",
+      "views": 411,
+      "minutes": 1110.0,
+      "subscribers_gained": 2,
+      "subscribers_lost": 1,
+      "subscribers_net": 1
+    },
+    {
+      "date": "2026-04-17",
+      "views": 60,
+      "minutes": 10.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-04-18",
+      "views": 27,
+      "minutes": 6.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-04-19",
+      "views": 324,
+      "minutes": 1362.0,
+      "subscribers_gained": 4,
+      "subscribers_lost": 0,
+      "subscribers_net": 4
+    },
+    {
+      "date": "2026-04-20",
+      "views": 229,
+      "minutes": 564.0,
+      "subscribers_gained": 1,
+      "subscribers_lost": 0,
+      "subscribers_net": 1
+    },
+    {
+      "date": "2026-04-21",
+      "views": 484,
+      "minutes": 703.0,
+      "subscribers_gained": 4,
+      "subscribers_lost": 2,
+      "subscribers_net": 2
+    },
+    {
+      "date": "2026-04-22",
+      "views": 436,
+      "minutes": 1054.0,
+      "subscribers_gained": 3,
+      "subscribers_lost": 1,
+      "subscribers_net": 2
+    },
+    {
+      "date": "2026-04-23",
+      "views": 1858,
+      "minutes": 1106.0,
+      "subscribers_gained": 3,
+      "subscribers_lost": 0,
+      "subscribers_net": 3
+    },
+    {
+      "date": "2026-04-24",
+      "views": 254,
+      "minutes": 41.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-04-25",
+      "views": 654,
+      "minutes": 125.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-04-26",
+      "views": 721,
+      "minutes": 1435.0,
+      "subscribers_gained": 3,
+      "subscribers_lost": 0,
+      "subscribers_net": 3
+    },
+    {
+      "date": "2026-04-27",
+      "views": 475,
+      "minutes": 1120.0,
+      "subscribers_gained": 5,
+      "subscribers_lost": 1,
+      "subscribers_net": 4
+    },
+    {
+      "date": "2026-04-28",
+      "views": 246,
+      "minutes": 1371.0,
+      "subscribers_gained": 2,
+      "subscribers_lost": 4,
+      "subscribers_net": -2
+    },
+    {
+      "date": "2026-04-29",
+      "views": 298,
+      "minutes": 1470.0,
+      "subscribers_gained": 3,
+      "subscribers_lost": 1,
+      "subscribers_net": 2
+    },
+    {
+      "date": "2026-04-30",
+      "views": 214,
+      "minutes": 1184.0,
+      "subscribers_gained": 1,
+      "subscribers_lost": 0,
+      "subscribers_net": 1
+    },
+    {
+      "date": "2026-05-01",
+      "views": 243,
+      "minutes": 915.0,
+      "subscribers_gained": 3,
+      "subscribers_lost": 0,
+      "subscribers_net": 3
+    },
+    {
+      "date": "2026-05-02",
+      "views": 20,
+      "minutes": 4.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 1,
+      "subscribers_net": -1
+    },
+    {
+      "date": "2026-05-03",
+      "views": 70,
+      "minutes": 7.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-05-04",
+      "views": 66,
+      "minutes": 3.0,
+      "subscribers_gained": 1,
+      "subscribers_lost": 1,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-05-05",
+      "views": 40,
+      "minutes": 2.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 1,
+      "subscribers_net": -1
+    },
+    {
+      "date": "2026-05-06",
+      "views": 48,
+      "minutes": 2.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-05-07",
+      "views": 183,
+      "minutes": 1037.0,
+      "subscribers_gained": 6,
+      "subscribers_lost": 0,
+      "subscribers_net": 6
+    },
+    {
+      "date": "2026-05-08",
+      "views": 208,
+      "minutes": 678.0,
+      "subscribers_gained": 2,
+      "subscribers_lost": 0,
+      "subscribers_net": 2
+    },
+    {
+      "date": "2026-05-09",
+      "views": 12,
+      "minutes": 74.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 1,
+      "subscribers_net": -1
+    },
+    {
+      "date": "2026-05-10",
+      "views": 252,
+      "minutes": 1432.0,
+      "subscribers_gained": 2,
+      "subscribers_lost": 0,
+      "subscribers_net": 2
+    },
+    {
+      "date": "2026-05-11",
+      "views": 253,
+      "minutes": 589.0,
+      "subscribers_gained": 2,
+      "subscribers_lost": 0,
+      "subscribers_net": 2
+    },
+    {
+      "date": "2026-05-12",
+      "views": 263,
+      "minutes": 1213.0,
+      "subscribers_gained": 4,
+      "subscribers_lost": 1,
+      "subscribers_net": 3
+    },
+    {
+      "date": "2026-05-13",
+      "views": 169,
+      "minutes": 613.0,
+      "subscribers_gained": 1,
+      "subscribers_lost": 0,
+      "subscribers_net": 1
+    },
+    {
+      "date": "2026-05-14",
+      "views": 228,
+      "minutes": 1239.0,
+      "subscribers_gained": 4,
+      "subscribers_lost": 1,
+      "subscribers_net": 3
+    },
+    {
+      "date": "2026-05-15",
+      "views": 41,
+      "minutes": 124.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 1,
+      "subscribers_net": -1
+    },
+    {
+      "date": "2026-05-16",
+      "views": 38,
+      "minutes": 6.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-05-17",
+      "views": 256,
+      "minutes": 738.0,
+      "subscribers_gained": 2,
+      "subscribers_lost": 1,
+      "subscribers_net": 1
+    },
+    {
+      "date": "2026-05-18",
+      "views": 239,
+      "minutes": 1002.0,
+      "subscribers_gained": 3,
+      "subscribers_lost": 1,
+      "subscribers_net": 2
+    },
+    {
+      "date": "2026-05-19",
+      "views": 274,
+      "minutes": 948.0,
+      "subscribers_gained": 2,
+      "subscribers_lost": 1,
+      "subscribers_net": 1
+    },
+    {
+      "date": "2026-05-20",
+      "views": 141,
+      "minutes": 819.0,
+      "subscribers_gained": 1,
+      "subscribers_lost": 0,
+      "subscribers_net": 1
+    },
+    {
+      "date": "2026-05-21",
+      "views": 200,
+      "minutes": 689.0,
+      "subscribers_gained": 2,
+      "subscribers_lost": 0,
+      "subscribers_net": 2
+    },
+    {
+      "date": "2026-05-22",
+      "views": 20,
+      "minutes": 23.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-05-23",
+      "views": 6,
+      "minutes": 3.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-05-24",
+      "views": 484,
+      "minutes": 936.0,
+      "subscribers_gained": 6,
+      "subscribers_lost": 0,
+      "subscribers_net": 6
+    },
+    {
+      "date": "2026-05-25",
+      "views": 189,
+      "minutes": 961.0,
+      "subscribers_gained": 2,
+      "subscribers_lost": 0,
+      "subscribers_net": 2
+    },
+    {
+      "date": "2026-05-26",
+      "views": 1229,
+      "minutes": 1298.0,
+      "subscribers_gained": 1,
+      "subscribers_lost": 0,
+      "subscribers_net": 1
+    },
+    {
+      "date": "2026-05-27",
+      "views": 397,
+      "minutes": 1335.0,
+      "subscribers_gained": 7,
+      "subscribers_lost": 1,
+      "subscribers_net": 6
+    },
+    {
+      "date": "2026-05-28",
+      "views": 348,
+      "minutes": 1225.0,
+      "subscribers_gained": 1,
+      "subscribers_lost": 0,
+      "subscribers_net": 1
+    },
+    {
+      "date": "2026-05-29",
+      "views": 34,
+      "minutes": 71.0,
+      "subscribers_gained": 2,
+      "subscribers_lost": 0,
+      "subscribers_net": 2
+    },
+    {
+      "date": "2026-05-30",
+      "views": 744,
+      "minutes": 111.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-05-31",
+      "views": 717,
+      "minutes": 1287.0,
+      "subscribers_gained": 5,
+      "subscribers_lost": 1,
+      "subscribers_net": 4
+    },
+    {
+      "date": "2026-06-01",
+      "views": 422,
+      "minutes": 973.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-06-02",
+      "views": 775,
+      "minutes": 381.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 1,
+      "subscribers_net": -1
+    },
+    {
+      "date": "2026-06-03",
+      "views": 530,
+      "minutes": 1216.0,
+      "subscribers_gained": 2,
+      "subscribers_lost": 0,
+      "subscribers_net": 2
+    },
+    {
+      "date": "2026-06-04",
+      "views": 349,
+      "minutes": 755.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-06-05",
+      "views": 268,
+      "minutes": 462.0,
+      "subscribers_gained": 3,
+      "subscribers_lost": 0,
+      "subscribers_net": 3
+    },
+    {
+      "date": "2026-06-06",
+      "views": 140,
+      "minutes": 386.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-06-07",
+      "views": 131,
+      "minutes": 177.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 2,
+      "subscribers_net": -2
+    },
+    {
+      "date": "2026-06-08",
+      "views": 1549,
+      "minutes": 1290.0,
+      "subscribers_gained": 3,
+      "subscribers_lost": 1,
+      "subscribers_net": 2
+    },
+    {
+      "date": "2026-06-09",
+      "views": 562,
+      "minutes": 1248.0,
+      "subscribers_gained": 2,
+      "subscribers_lost": 2,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-06-10",
+      "views": 349,
+      "minutes": 671.0,
+      "subscribers_gained": 1,
+      "subscribers_lost": 0,
+      "subscribers_net": 1
+    },
+    {
+      "date": "2026-06-11",
+      "views": 575,
+      "minutes": 1863.0,
+      "subscribers_gained": 3,
+      "subscribers_lost": 0,
+      "subscribers_net": 3
+    },
+    {
+      "date": "2026-06-12",
+      "views": 357,
+      "minutes": 140.0,
+      "subscribers_gained": 1,
+      "subscribers_lost": 0,
+      "subscribers_net": 1
+    },
+    {
+      "date": "2026-06-13",
+      "views": 60,
+      "minutes": 111.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-06-14",
+      "views": 217,
+      "minutes": 390.0,
+      "subscribers_gained": 1,
+      "subscribers_lost": 0,
+      "subscribers_net": 1
+    },
+    {
+      "date": "2026-06-15",
+      "views": 285,
+      "minutes": 588.0,
+      "subscribers_gained": 1,
+      "subscribers_lost": 0,
+      "subscribers_net": 1
+    },
+    {
+      "date": "2026-06-16",
+      "views": 259,
+      "minutes": 1505.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 1,
+      "subscribers_net": -1
+    },
+    {
+      "date": "2026-06-17",
+      "views": 43,
+      "minutes": 379.0,
+      "subscribers_gained": 1,
+      "subscribers_lost": 0,
+      "subscribers_net": 1
+    },
+    {
+      "date": "2026-06-18",
+      "views": 16,
+      "minutes": 23.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-06-19",
+      "views": 23,
+      "minutes": 63.0,
+      "subscribers_gained": 1,
+      "subscribers_lost": 1,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-06-20",
+      "views": 22,
+      "minutes": 55.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-06-21",
+      "views": 10,
+      "minutes": 251.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-06-22",
+      "views": 10,
+      "minutes": 50.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-06-23",
+      "views": 19,
+      "minutes": 26.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-06-24",
+      "views": 8,
+      "minutes": 11.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-06-25",
+      "views": 202,
+      "minutes": 966.0,
+      "subscribers_gained": 6,
+      "subscribers_lost": 0,
+      "subscribers_net": 6
+    },
+    {
+      "date": "2026-06-26",
+      "views": 107,
+      "minutes": 466.0,
+      "subscribers_gained": 1,
+      "subscribers_lost": 1,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-06-27",
+      "views": 130,
+      "minutes": 799.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-06-28",
+      "views": 193,
+      "minutes": 713.0,
+      "subscribers_gained": 2,
+      "subscribers_lost": 0,
+      "subscribers_net": 2
+    },
+    {
+      "date": "2026-06-29",
+      "views": 155,
+      "minutes": 781.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-06-30",
+      "views": 225,
+      "minutes": 1355.0,
+      "subscribers_gained": 1,
+      "subscribers_lost": 0,
+      "subscribers_net": 1
+    },
+    {
+      "date": "2026-07-01",
+      "views": 172,
+      "minutes": 880.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-07-02",
+      "views": 127,
+      "minutes": 713.0,
+      "subscribers_gained": 1,
+      "subscribers_lost": 1,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-07-03",
+      "views": 106,
+      "minutes": 300.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-07-04",
+      "views": 192,
+      "minutes": 813.0,
+      "subscribers_gained": 1,
+      "subscribers_lost": 0,
+      "subscribers_net": 1
+    },
+    {
+      "date": "2026-07-05",
+      "views": 214,
+      "minutes": 844.0,
+      "subscribers_gained": 2,
+      "subscribers_lost": 1,
+      "subscribers_net": 1
+    },
+    {
+      "date": "2026-07-06",
+      "views": 134,
+      "minutes": 898.0,
+      "subscribers_gained": 1,
+      "subscribers_lost": 0,
+      "subscribers_net": 1
+    },
+    {
+      "date": "2026-07-07",
+      "views": 180,
+      "minutes": 857.0,
+      "subscribers_gained": 3,
+      "subscribers_lost": 1,
+      "subscribers_net": 2
+    },
+    {
+      "date": "2026-07-08",
+      "views": 150,
+      "minutes": 799.0,
+      "subscribers_gained": 1,
+      "subscribers_lost": 0,
+      "subscribers_net": 1
+    },
+    {
+      "date": "2026-07-09",
+      "views": 1092,
+      "minutes": 1123.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-07-10",
+      "views": 277,
+      "minutes": 751.0,
+      "subscribers_gained": 1,
+      "subscribers_lost": 0,
+      "subscribers_net": 1
+    },
+    {
+      "date": "2026-07-11",
+      "views": 46,
+      "minutes": 40.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 1,
+      "subscribers_net": -1
+    },
+    {
+      "date": "2026-07-12",
+      "views": 169,
+      "minutes": 647.0,
+      "subscribers_gained": 3,
+      "subscribers_lost": 0,
+      "subscribers_net": 3
+    },
+    {
+      "date": "2026-07-13",
+      "views": 256,
+      "minutes": 1331.0,
+      "subscribers_gained": 2,
+      "subscribers_lost": 0,
+      "subscribers_net": 2
+    },
+    {
+      "date": "2026-07-14",
+      "views": 259,
+      "minutes": 1323.0,
+      "subscribers_gained": 2,
+      "subscribers_lost": 0,
+      "subscribers_net": 2
+    },
+    {
+      "date": "2026-07-15",
+      "views": 54,
+      "minutes": 463.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 1,
+      "subscribers_net": -1
+    },
+    {
+      "date": "2026-07-16",
+      "views": 236,
+      "minutes": 1176.0,
+      "subscribers_gained": 3,
+      "subscribers_lost": 0,
+      "subscribers_net": 3
+    },
+    {
+      "date": "2026-07-17",
+      "views": 244,
+      "minutes": 978.0,
+      "subscribers_gained": 3,
+      "subscribers_lost": 0,
+      "subscribers_net": 3
+    },
+    {
+      "date": "2026-07-18",
+      "views": 17,
+      "minutes": 13.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 1,
+      "subscribers_net": -1
+    },
+    {
+      "date": "2026-07-19",
+      "views": 11,
+      "minutes": 10.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-07-20",
+      "views": 180,
+      "minutes": 1019.0,
+      "subscribers_gained": 2,
+      "subscribers_lost": 0,
+      "subscribers_net": 2
+    },
+    {
+      "date": "2026-07-21",
+      "views": 267,
+      "minutes": 1548.0,
+      "subscribers_gained": 1,
+      "subscribers_lost": 0,
+      "subscribers_net": 1
+    },
+    {
+      "date": "2026-07-22",
+      "views": 113,
+      "minutes": 379.0,
+      "subscribers_gained": 2,
+      "subscribers_lost": 0,
+      "subscribers_net": 2
+    },
+    {
+      "date": "2026-07-23",
+      "views": 212,
+      "minutes": 1152.0,
+      "subscribers_gained": 2,
+      "subscribers_lost": 1,
+      "subscribers_net": 1
+    },
+    {
+      "date": "2026-07-24",
+      "views": 179,
+      "minutes": 644.0,
+      "subscribers_gained": 1,
+      "subscribers_lost": 0,
+      "subscribers_net": 1
+    },
+    {
+      "date": "2026-07-25",
+      "views": 11,
+      "minutes": 45.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 1,
+      "subscribers_net": -1
+    },
+    {
+      "date": "2026-07-26",
+      "views": 7,
+      "minutes": 20.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-07-27",
+      "views": 121,
+      "minutes": 394.0,
+      "subscribers_gained": 1,
+      "subscribers_lost": 1,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-07-28",
+      "views": 134,
+      "minutes": 195.0,
+      "subscribers_gained": 1,
+      "subscribers_lost": 0,
+      "subscribers_net": 1
+    },
+    {
+      "date": "2026-07-29",
+      "views": 4,
+      "minutes": 3.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 1,
+      "subscribers_net": -1
+    },
+    {
+      "date": "2026-07-30",
+      "views": 134,
+      "minutes": 739.0,
+      "subscribers_gained": 1,
+      "subscribers_lost": 0,
+      "subscribers_net": 1
+    },
+    {
+      "date": "2026-07-31",
+      "views": 151,
+      "minutes": 582.0,
+      "subscribers_gained": 2,
+      "subscribers_lost": 0,
+      "subscribers_net": 2
+    },
+    {
+      "date": "2026-08-01",
+      "views": 12,
+      "minutes": 96.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-08-02",
+      "views": 3,
+      "minutes": 7.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-08-03",
+      "views": 124,
+      "minutes": 490.0,
+      "subscribers_gained": 1,
+      "subscribers_lost": 0,
+      "subscribers_net": 1
+    },
+    {
+      "date": "2026-08-04",
+      "views": 12,
+      "minutes": 237.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-08-05",
+      "views": 65,
+      "minutes": 424.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-08-06",
+      "views": 11,
+      "minutes": 32.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-08-07",
+      "views": 172,
+      "minutes": 332.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-08-08",
+      "views": 23,
+      "minutes": 6.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-08-09",
+      "views": 20,
+      "minutes": 42.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-08-10",
+      "views": 9,
+      "minutes": 26.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 1,
+      "subscribers_net": -1
+    },
+    {
+      "date": "2026-08-11",
+      "views": 5,
+      "minutes": 9.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-08-12",
+      "views": 12,
+      "minutes": 4.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-08-13",
+      "views": 45,
+      "minutes": 463.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-08-14",
+      "views": 94,
+      "minutes": 228.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-08-15",
+      "views": 137,
+      "minutes": 334.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-08-16",
+      "views": 178,
+      "minutes": 448.0,
+      "subscribers_gained": 2,
+      "subscribers_lost": 0,
+      "subscribers_net": 2
+    },
+    {
+      "date": "2026-08-17",
+      "views": 109,
+      "minutes": 177.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-08-18",
+      "views": 197,
+      "minutes": 150.0,
+      "subscribers_gained": 2,
+      "subscribers_lost": 1,
+      "subscribers_net": 1
+    },
+    {
+      "date": "2026-08-19",
+      "views": 121,
+      "minutes": 267.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-08-20",
+      "views": 170,
+      "minutes": 397.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-08-21",
+      "views": 874,
+      "minutes": 166.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-08-22",
+      "views": 285,
+      "minutes": 61.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-08-23",
+      "views": 252,
+      "minutes": 516.0,
+      "subscribers_gained": 4,
+      "subscribers_lost": 0,
+      "subscribers_net": 4
+    },
+    {
+      "date": "2026-08-24",
+      "views": 179,
+      "minutes": 393.0,
+      "subscribers_gained": 2,
+      "subscribers_lost": 0,
+      "subscribers_net": 2
+    },
+    {
+      "date": "2026-08-25",
+      "views": 224,
+      "minutes": 981.0,
+      "subscribers_gained": 3,
+      "subscribers_lost": 1,
+      "subscribers_net": 2
+    },
+    {
+      "date": "2026-08-26",
+      "views": 11,
+      "minutes": 413.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-08-27",
+      "views": 828,
+      "minutes": 664.0,
+      "subscribers_gained": 4,
+      "subscribers_lost": 2,
+      "subscribers_net": 2
+    },
+    {
+      "date": "2026-08-28",
+      "views": 29,
+      "minutes": 169.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-08-29",
+      "views": 30,
+      "minutes": 17.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-08-30",
+      "views": 771,
+      "minutes": 704.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-08-31",
+      "views": 500,
+      "minutes": 289.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-09-01",
+      "views": 511,
+      "minutes": 608.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-09-02",
+      "views": 396,
+      "minutes": 1221.0,
+      "subscribers_gained": 1,
+      "subscribers_lost": 0,
+      "subscribers_net": 1
+    },
+    {
+      "date": "2026-09-03",
+      "views": 678,
+      "minutes": 360.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-09-04",
+      "views": 34,
+      "minutes": 37.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 1,
+      "subscribers_net": -1
+    },
+    {
+      "date": "2026-09-05",
+      "views": 17,
+      "minutes": 46.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 1,
+      "subscribers_net": -1
+    },
+    {
+      "date": "2026-09-06",
+      "views": 442,
+      "minutes": 151.0,
+      "subscribers_gained": 1,
+      "subscribers_lost": 0,
+      "subscribers_net": 1
+    },
+    {
+      "date": "2026-09-07",
+      "views": 496,
+      "minutes": 597.0,
+      "subscribers_gained": 1,
+      "subscribers_lost": 0,
+      "subscribers_net": 1
+    },
+    {
+      "date": "2026-09-08",
+      "views": 462,
+      "minutes": 378.0,
+      "subscribers_gained": 1,
+      "subscribers_lost": 1,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-09-09",
+      "views": 514,
+      "minutes": 169.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-09-10",
+      "views": 576,
+      "minutes": 466.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-09-11",
+      "views": 44,
+      "minutes": 35.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 1,
+      "subscribers_net": -1
+    },
+    {
+      "date": "2026-09-12",
+      "views": 32,
+      "minutes": 15.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-09-13",
+      "views": 675,
+      "minutes": 308.0,
+      "subscribers_gained": 1,
+      "subscribers_lost": 1,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-09-14",
+      "views": 632,
+      "minutes": 433.0,
+      "subscribers_gained": 5,
+      "subscribers_lost": 0,
+      "subscribers_net": 5
+    },
+    {
+      "date": "2026-09-15",
+      "views": 40,
+      "minutes": 36.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 1,
+      "subscribers_net": -1
+    },
+    {
+      "date": "2026-09-16",
+      "views": 421,
+      "minutes": 630.0,
+      "subscribers_gained": 3,
+      "subscribers_lost": 0,
+      "subscribers_net": 3
+    },
+    {
+      "date": "2026-09-17",
+      "views": 210,
+      "minutes": 449.0,
+      "subscribers_gained": 2,
+      "subscribers_lost": 0,
+      "subscribers_net": 2
+    },
+    {
+      "date": "2026-09-18",
+      "views": 24,
+      "minutes": 11.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 1,
+      "subscribers_net": -1
+    },
+    {
+      "date": "2026-09-19",
+      "views": 8,
+      "minutes": 0.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-09-20",
+      "views": 560,
+      "minutes": 439.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 1,
+      "subscribers_net": -1
+    },
+    {
+      "date": "2026-09-21",
+      "views": 540,
+      "minutes": 798.0,
+      "subscribers_gained": 2,
+      "subscribers_lost": 0,
+      "subscribers_net": 2
+    },
+    {
+      "date": "2026-09-22",
+      "views": 833,
+      "minutes": 328.0,
+      "subscribers_gained": 3,
+      "subscribers_lost": 1,
+      "subscribers_net": 2
+    },
+    {
+      "date": "2026-09-23",
+      "views": 468,
+      "minutes": 565.0,
+      "subscribers_gained": 1,
+      "subscribers_lost": 0,
+      "subscribers_net": 1
+    },
+    {
+      "date": "2026-09-24",
+      "views": 836,
+      "minutes": 1147.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-09-25",
+      "views": 61,
+      "minutes": 81.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-09-26",
+      "views": 34,
+      "minutes": 31.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-09-27",
+      "views": 559,
+      "minutes": 567.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-09-28",
+      "views": 523,
+      "minutes": 1475.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-09-29",
+      "views": 484,
+      "minutes": 353.0,
+      "subscribers_gained": 2,
+      "subscribers_lost": 0,
+      "subscribers_net": 2
+    },
+    {
+      "date": "2026-09-30",
+      "views": 449,
+      "minutes": 1004.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-10-01",
+      "views": 1002,
+      "minutes": 1088.0,
+      "subscribers_gained": 4,
+      "subscribers_lost": 0,
+      "subscribers_net": 4
+    },
+    {
+      "date": "2026-10-02",
+      "views": 24,
+      "minutes": 2.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-10-03",
+      "views": 26,
+      "minutes": 13.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 1,
+      "subscribers_net": -1
+    },
     {
       "date": "2026-10-04",
       "views": 429,
@@ -187,27 +2866,51 @@
     },
     {
       "date": "2026-10-26",
-      "views": 997,
-      "minutes": 631.0,
+      "views": 984,
+      "minutes": 498.0,
       "subscribers_gained": 1,
       "subscribers_lost": 0,
       "subscribers_net": 1
     },
     {
       "date": "2026-10-27",
-      "views": 1025,
-      "minutes": 393.0,
+      "views": 1021,
+      "minutes": 358.0,
       "subscribers_gained": 2,
       "subscribers_lost": 1,
       "subscribers_net": 1
     },
     {
       "date": "2026-10-28",
-      "views": 1032,
-      "minutes": 352.0,
+      "views": 1028,
+      "minutes": 316.0,
       "subscribers_gained": 2,
       "subscribers_lost": 0,
       "subscribers_net": 2
+    },
+    {
+      "date": "2026-10-29",
+      "views": 1145,
+      "minutes": 685.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-10-30",
+      "views": 23,
+      "minutes": 6.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
+    },
+    {
+      "date": "2026-10-31",
+      "views": 25,
+      "minutes": 108.0,
+      "subscribers_gained": 0,
+      "subscribers_lost": 0,
+      "subscribers_net": 0
     }
   ]
 }

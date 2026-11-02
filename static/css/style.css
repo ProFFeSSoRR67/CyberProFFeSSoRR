@@ -55,10 +55,11 @@ a {
 
 .navbar {
     min-height: 86px;
-    display: flex;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
     align-items: center;
     justify-content: space-between;
-    padding: 18px 6%;
+    padding: 18px max(25px, calc((100% - 1150px) / 2));
     border-bottom: 1px solid rgba(230,199,139,.24);
     background: rgba(8,15,32,.78);
     backdrop-filter: blur(18px);
@@ -84,6 +85,8 @@ nav {
     display: flex;
     gap: 30px;
 }
+
+.nav-button { justify-self: end; }
 
 nav a {
     color: var(--muted);
@@ -323,7 +326,14 @@ h2, h3 {
     padding: 10px 15px;
     font-size: 11px;
     color: var(--gold);
+    background: transparent;
+    font-family: inherit;
+    cursor: pointer;
 }
+
+.period-filters { display: flex; gap: 8px; flex-wrap: wrap; }
+.period.active { background: var(--gold); color: var(--bg); }
+.period:hover, .period:focus-visible { border-color: var(--gold-bright); }
 
 .chart-placeholder {
     min-height: 280px;
@@ -396,6 +406,7 @@ footer {
 }
 
 @media (max-width: 900px) {
+    .navbar { grid-template-columns: minmax(0, 1fr) auto; }
     .stats-grid {
         grid-template-columns: repeat(2, 1fr);
     }

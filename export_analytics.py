@@ -19,7 +19,13 @@ def export_analytics():
     )
 
     end_date = date.today() - timedelta(days=1)
-    start_date = end_date - timedelta(days=27)
+    # Последние 12 месяцев, включая последний завершённый день.
+    try:
+        previous_year = end_date.replace(year=end_date.year - 1)
+    except ValueError:
+        previous_year = end_date.replace(year=end_date.year - 1, day=28)
+    start_date = previous_year + timedelta(days=1)
+    recent_start = end_date - timedelta(days=27)
 
     report = api.reports().query(
         ids="channel==MINE",
@@ -50,6 +56,7 @@ def export_analytics():
             "subscribers_net": gained - lost
         })
 
+    recent = [day for day in daily if day["date"] >= recent_start.isoformat()]
     result = {
         "period_start": start_date.isoformat(),
         "period_end": end_date.isoformat(),
@@ -57,19 +64,19 @@ def export_analytics():
             daily[-1]["date"] if daily else None
         ),
         "views_28": sum(
-            day["views"] for day in daily
+            day["views"] for day in recent
         ),
         "watch_hours_28": round(
-            sum(day["minutes"] for day in daily) / 60, 1
+            sum(day["minutes"] for day in recent) / 60, 1
         ),
         "subscribers_gained_28": sum(
-            day["subscribers_gained"] for day in daily
+            day["subscribers_gained"] for day in recent
         ),
         "subscribers_lost_28": sum(
-            day["subscribers_lost"] for day in daily
+            day["subscribers_lost"] for day in recent
         ),
         "subscribers_net_28": sum(
-            day["subscribers_net"] for day in daily
+            day["subscribers_net"] for day in recent
         ),
         "daily": daily
     }
