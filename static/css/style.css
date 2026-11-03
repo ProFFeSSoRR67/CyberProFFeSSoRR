@@ -99,17 +99,43 @@ nav a:hover {
 }
 
 .nav-button,
-.outline-button {
-    border: 1px solid rgba(230,199,139,.65);
-    padding: 13px 22px;
-    color: var(--gold);
+.outline-button,
+.gold-button,
+.period,
+.chart-tab {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 44px;
+    padding: 12px 22px;
+    border: 1px solid rgba(230, 199, 139, .25);
+    border-radius: 10px;
+    background: rgba(230, 199, 139, .04);
+    color: var(--text);
+    font-family: inherit;
     font-size: 13px;
-    transition: .3s;
+    font-weight: 500;
+    line-height: 1.4;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color .2s, border-color .2s, color .2s;
 }
 
 .nav-button:hover,
-.outline-button:hover {
-    background: rgba(230,199,139,.12);
+.outline-button:hover,
+.period:hover,
+.chart-tab:hover {
+    background: rgba(230, 199, 139, .1);
+    border-color: rgba(230, 199, 139, .55);
+}
+
+.nav-button:focus-visible,
+.outline-button:focus-visible,
+.gold-button:focus-visible,
+.period:focus-visible,
+.chart-tab:focus-visible {
+    outline: 2px solid var(--gold-bright);
+    outline-offset: 4px;
 }
 
 .hero {
@@ -187,20 +213,15 @@ nav a:hover {
 }
 
 .gold-button {
-    display: inline-block;
-    background: linear-gradient(
-        135deg, #b28b4d, #f1d8a0, #bb9659);
-    color: #172035;
-    padding: 15px 30px;
-    font-size: 13px;
-    font-weight: 700;
-    box-shadow: 0 5px 25px rgba(230,199,139,.15);
-    transition: transform .3s, box-shadow .3s;
+    background: var(--gold);
+    border-color: var(--gold);
+    color: var(--bg);
+    font-weight: 600;
 }
 
 .gold-button:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 8px 35px rgba(230,199,139,.3);
+    background: var(--gold-bright);
+    border-color: var(--gold-bright);
 }
 
 .dashboard {
@@ -322,18 +343,17 @@ h2, h3 {
 }
 
 .period {
-    border: 1px solid rgba(230,199,139,.35);
     padding: 10px 15px;
     font-size: 11px;
-    color: var(--gold);
-    background: transparent;
-    font-family: inherit;
-    cursor: pointer;
+    color: var(--muted);
 }
 
 .period-filters { display: flex; gap: 8px; flex-wrap: wrap; }
-.period.active { background: var(--gold); color: var(--bg); }
-.period:hover, .period:focus-visible { border-color: var(--gold-bright); }
+.period.active {
+    background: rgba(230, 199, 139, .14);
+    border-color: rgba(230, 199, 139, .5);
+    color: var(--gold-bright);
+}
 
 .chart-placeholder {
     min-height: 280px;
@@ -483,44 +503,14 @@ footer {
 }
 
 .chart-tab {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 13px;
-    font-weight: 600;
-    padding: 13px 24px;
-
-    background: rgba(8, 20, 40, 0.85);
-    border: 1px solid rgba(230,199,139,0.35);
-    color: #d0dced;
-
-    cursor: pointer;
-    transition: all 0.25s ease;
-}
-
-.chart-tab:hover {
-    border-color: #ffe3a5;
-    color: #ffffff;
-    transform: translateY(-2px);
+    padding: 12px 20px;
+    color: var(--muted);
 }
 
 .chart-tab.active {
-    color: #101827;
-    background: linear-gradient(
-        135deg,
-        #f4c875,
-        #ffe5aa
-    );
-    border-color: #ffe5aa;
-    box-shadow: 0 0 20px rgba(255,211,110,0.25);
-}
-
-.chart-tab[data-chart="subscribers"].active {
-    background: linear-gradient(
-        135deg,
-        #27d8cc,
-        #83fff0
-    );
-    border-color: #83fff0;
-    box-shadow: 0 0 20px rgba(56,245,224,0.25);
+    color: var(--gold-bright);
+    background: rgba(230, 199, 139, .14);
+    border-color: rgba(230, 199, 139, .5);
 }
 
 #chart-container {
